@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` should render the GifGrid component properly 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeInUp"
+  >
+    Dexter
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <p
+      className="animate__animated animate__flash"
+    >
+      Loading...
+    </p>
+  </div>
+</Fragment>
+`;
+
+exports[` should render the GifGrid component properly after the useFecthGifs return a response 1`] = `
+<Fragment>
+  <h3
+    className="animate__animated animate__fadeInUp"
+  >
+    Dexter
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="Gif ID"
+      key="Gif ID"
+      title="Gif Title"
+      url="Gif URL"
+    />
+    <GifGridItem
+      id="Gif ID2"
+      key="Gif ID2"
+      title="Gif Title"
+      url="Gif URL"
+    />
+  </div>
+</Fragment>
+`;
